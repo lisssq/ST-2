@@ -154,4 +154,4 @@ TEST(PoolTest, TotalCost) {
     double cost = poolTask();
     double expectedCost = (PI * 7.0 * 1000.0) + (2 * PI * 4.0 * 2000.0);
     EXPECT_NEAR(expectedCost, cost, 0.1);
-}
+} 
