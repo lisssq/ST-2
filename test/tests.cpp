@@ -26,7 +26,7 @@ TEST(CircleTest, SetFerence) {
     Circle c(1.0);
     double ference = 2 * PI * 7.0;
     c.setFerence(ference);
-    EXPECT_NEAR(7.0, c.getRadius(), EPS);  
+    EXPECT_NEAR(7.0, c.getRadius(), EPS);
     EXPECT_NEAR(ference, c.getFerence(), EPS);
     EXPECT_NEAR(PI * 49.0, c.getArea(), EPS);
 }
