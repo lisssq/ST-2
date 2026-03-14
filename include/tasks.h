@@ -4,4 +4,5 @@
 double earthAndRopeTask();
 double poolTask();
 
-#endif  
+#endif  // INCLUDE_TASKS_H_
+
