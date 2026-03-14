@@ -1,7 +1,7 @@
 // Copyright 2026 UNN-CS Team
 #include "tasks.h"
-
 #include <cmath>
+#include "circle.h"
 
 const double EARTH_RADIUS_KM = 6378.1;
 const double EARTH_RADIUS_M = EARTH_RADIUS_KM * 1000;
